@@ -1,0 +1,827 @@
+the set of combination-dependent-playing-strategy tables
+open J21h24s1d/game7TDAi.txt to see a list of program parameters
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays the best
+strategies for the play of the player's hands
+in response to dealer hands 00 to AA
+ 
+     00     0A     02     03     04     05     06     07     08     09     0T     0J     0Q     0K     AA      
+       
+00  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  23/AJ    00
+0A         23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    0A
+02  Stand  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    02
+03  Stand  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    03
+04  Stand  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    04
+05  Stand  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    05
+06  Stand  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    06
+07  Stand  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    07
+08  Stand  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    08
+09  Stand  23/AJ  22/AT  22/AT  22     22     21     21     21     22     22     22/AT  22/AT  22/AT  23/AJ    09
+0T  Stand  23/AJ  22     22     22     22     21     21     21     22     22     22     22     22     23/AJ    0T
+0J  Stand  23     22     22     22     22     21     21     21     22     22     22     22     22     23       0J
+0Q  Stand  23     22     22     22     22     21     21     21     22     22     22     22     22     23       0Q
+0K  Stand  23     22     22     22     22     21     21     21     22     22     22     22     22     23       0K
+AA  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    AA
+A2  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    A2
+A3  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    A3
+A4  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    A4
+A5  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    A5
+A6  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    A6
+A7  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    A7
+A8  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    A8
+A9  22/AT  23/AJ  22/AT  22/AT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  22/AT  22/AT  22/AT  23/AJ    A9
+AT  Stand  23/AJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  23/AJ    AT
+AJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AJ
+AQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AQ
+AK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AK
+22  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    22
+23  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    23
+24  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    24
+25  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    25
+26  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    26
+27  22/AT  23/AJ  22/AT  22/AT  22     22     21     21     21     22     22     22/AT  22/AT  22/AT  23/AJ    27
+28  22     23/AJ  22     22     22     22     21     21     21     22     22     22     22     22     23/AJ    28
+29  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       29
+2T  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       2T
+2J  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       2J
+2Q  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       2Q
+2K  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       2K
+33  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    33
+34  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    34
+35  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    35
+36  22/AT  23/AJ  22/AT  22/AT  22     22     21     21     21     22     22     22/AT  22/AT  22/AT  23/AJ    36
+37  22     23/AJ  22     22     22     22     21     21     21     22     22     22     22     22     23/AJ    37
+38  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       38
+39  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       39
+3T  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       3T
+3J  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       3J
+3Q  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       3Q
+3K  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       3K
+44  22/AT  23/AJ  22/AT  22/AT  22/A9  22/A9  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  23/AJ    44
+45  22/AT  23/AJ  22/AT  22/AT  22     22     21     21     21     22     22     22/AT  22/AT  22/AT  23/AJ    45
+46  22     23/AJ  22     22     22     22     21     21     21     22     22     22     22     22     23/AJ    46
+47  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       47
+48  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       48
+49  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       49
+4T  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       4T
+4J  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       4J
+4Q  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       4Q
+4K  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       4K
+55  22     23/AJ  22     22     22     22     21     21     21     22     22     22     22     22     23/AJ    55
+56  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       56
+57  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       57
+58  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       58
+59  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       59
+5T  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       5T
+5J  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       5J
+5Q  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       5Q
+5K  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       5K
+66  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       66
+67  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       67
+68  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       68
+69  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       69
+6T  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       6T
+6J  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       6J
+6Q  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       6Q
+6K  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       6K
+77  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       77
+78  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       78
+79  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       79
+7T  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       7T
+7J  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       7J
+7Q  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       7Q
+7K  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       7K
+88  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       88
+89  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       89
+8T  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       8T
+8J  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       8J
+8Q  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       8Q
+8K  22     23     22     22     22     22     Stand  Stand  Stand  22     22     22     22     22     23       8K
+99  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       99
+9T  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       9T
+9J  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       9J
+9Q  22     23     22     22     22     22     Stand  Stand  Stand  22     22     22     22     22     23       9Q
+9K  Stand  23     Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  23       9K
+TT  22     23     22     22     22     22     21     21     21     22     22     22     22     22     23       TT
+TJ  22     23     22     22     22     22     Stand  Stand  Stand  22     22     22     22     22     23       TJ
+TQ  Stand  23     Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  23       TQ
+TK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TK
+JJ  Stand  23     Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  23       JJ
+JQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JQ
+JK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JK
+QQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QQ
+QK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QK
+KK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KK
+ 
+     00     0A     02     03     04     05     06     07     08     09     0T     0J     0Q     0K     AA      
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays the best
+strategies for the play of the player's hands
+in response to dealer hands A2 to 24
+ 
+     A2     A3     A4     A5     A6     A7     A8     A9     AT     AJ     AQ     AK     22     23     24      
+       
+00  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    00
+0A  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    0A
+02  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    02
+03  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    03
+04  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    04
+05  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    05
+06  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    06
+07  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    07
+08  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    08
+09  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22     22     21       09
+0T  22     22     22     22     22     22     22     22     24/AJ  25/AJ  26/AQ  Stand  22     22     21       0T
+0J  22     22     22     22     22     22     22     22     24     25     26/AQ  Stand  22     22     21       0J
+0Q  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       0Q
+0K  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       0K
+AA  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    AA
+A2  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    A2
+A3  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    A3
+A4  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    A4
+A5  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    A5
+A6  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    A6
+A7  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    A7
+A8  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    A8
+A9  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  Stand  Stand  Stand    A9
+AT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  24/AJ  25/AJ  26/AQ  Stand  Stand  Stand  Stand    AT
+AJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  26/AQ  Stand  Stand  Stand  Stand    AJ
+AQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AQ
+AK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AK
+22  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    22
+23  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    23
+24  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    24
+25  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    25
+26  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    26
+27  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22     22     21       27
+28  22     22     22     22     22     22     22     22     24/AJ  25/AJ  26/AQ  Stand  22     22     21       28
+29  22     22     22     22     22     22     22     22     24     25     26/AQ  Stand  22     22     21       29
+2T  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       2T
+2J  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       2J
+2Q  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       2Q
+2K  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       2K
+33  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    33
+34  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    34
+35  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    35
+36  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22     22     21       36
+37  22     22     22     22     22     22     22     22     24/AJ  25/AJ  26/AQ  Stand  22     22     21       37
+38  22     22     22     22     22     22     22     22     24     25     26/AQ  Stand  22     22     21       38
+39  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       39
+3T  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       3T
+3J  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       3J
+3Q  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       3Q
+3K  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       3K
+44  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22/A9  22/A9  21/A9    44
+45  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  22/AT  24/AJ  25/AJ  26/AQ  Stand  22     22     21       45
+46  22     22     22     22     22     22     22     22     24/AJ  25/AJ  26/AQ  Stand  22     22     21       46
+47  22     22     22     22     22     22     22     22     24     25     26/AQ  Stand  22     22     21       47
+48  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       48
+49  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       49
+4T  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       4T
+4J  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       4J
+4Q  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       4Q
+4K  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       4K
+55  22     22     22     22     22     22     22     22     24/AJ  25/AJ  26/AQ  Stand  22     22     21       55
+56  22     22     22     22     22     22     22     22     24     25     26/AQ  Stand  22     22     21       56
+57  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       57
+58  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       58
+59  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       59
+5T  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       5T
+5J  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       5J
+5Q  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       5Q
+5K  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       5K
+66  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       66
+67  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       67
+68  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       68
+69  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       69
+6T  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       6T
+6J  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       6J
+6Q  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       6Q
+6K  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       6K
+77  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       77
+78  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       78
+79  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       79
+7T  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       7T
+7J  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       7J
+7Q  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       7Q
+7K  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       7K
+88  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       88
+89  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       89
+8T  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       8T
+8J  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       8J
+8Q  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       8Q
+8K  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     Stand    8K
+99  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       99
+9T  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       9T
+9J  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       9J
+9Q  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     Stand    9Q
+9K  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  24     25     26     Stand  Stand  Stand  Stand    9K
+TT  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     21       TT
+TJ  22     22     22     22     22     22     22     22     24     25     26     Stand  22     22     Stand    TJ
+TQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  24     25     26     Stand  Stand  Stand  Stand    TQ
+TK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  24     25     26     Stand  Stand  Stand  Stand    TK
+JJ  23     Stand  Stand  Stand  Stand  Stand  Stand  Stand  24     25     26     Stand  Stand  Stand  Stand    JJ
+JQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  24     25     26     Stand  Stand  Stand  Stand    JQ
+JK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  25     26     Stand  Stand  Stand  Stand    JK
+QQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  25     26     Stand  Stand  Stand  Stand    QQ
+QK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  26     Stand  Stand  Stand  Stand    QK
+KK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KK
+ 
+     A2     A3     A4     A5     A6     A7     A8     A9     AT     AJ     AQ     AK     22     23     24      
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays the best
+strategies for the play of the player's hands
+in response to dealer hands 25 to 38
+ 
+     25     26     27     28     29     2T     2J     2Q     2K     33     34     35     36     37     38      
+       
+00  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    00
+0A  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    0A
+02  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    02
+03  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    03
+04  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    04
+05  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    05
+06  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    06
+07  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    07
+08  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    08
+09  21     21     22     22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21     21     22     22     22/AT    09
+0T  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       0T
+0J  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       0J
+0Q  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       0Q
+0K  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       0K
+AA  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    AA
+A2  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    A2
+A3  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    A3
+A4  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    A4
+A5  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    A5
+A6  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    A6
+A7  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    A7
+A8  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    A8
+A9  Stand  Stand  Stand  Stand  22/AT  22/AT  22/AT  22/AT  22/AT  Stand  Stand  Stand  Stand  Stand  22/AT    A9
+AT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AT
+AJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AJ
+AQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AQ
+AK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AK
+22  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    22
+23  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    23
+24  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    24
+25  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    25
+26  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    26
+27  21     21     22     22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21     21     22     22     22/AT    27
+28  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       28
+29  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       29
+2T  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       2T
+2J  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       2J
+2Q  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       2Q
+2K  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       2K
+33  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    33
+34  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    34
+35  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    35
+36  21     21     22     22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21     21     22     22     22/AT    36
+37  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       37
+38  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       38
+39  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       39
+3T  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       3T
+3J  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       3J
+3Q  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       3Q
+3K  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       3K
+44  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/A9  22/A9  22/AT    44
+45  21     21     22     22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21     21     22     22     22/AT    45
+46  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       46
+47  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       47
+48  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       48
+49  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       49
+4T  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       4T
+4J  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       4J
+4Q  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       4Q
+4K  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       4K
+55  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       55
+56  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       56
+57  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       57
+58  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       58
+59  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       59
+5T  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       5T
+5J  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       5J
+5Q  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       5Q
+5K  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       5K
+66  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       66
+67  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       67
+68  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       68
+69  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       69
+6T  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       6T
+6J  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       6J
+6Q  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       6Q
+6K  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       6K
+77  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       77
+78  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       78
+79  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       79
+7T  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       7T
+7J  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       7J
+7Q  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       7Q
+7K  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       7K
+88  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       88
+89  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       89
+8T  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       8T
+8J  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       8J
+8Q  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       8Q
+8K  Stand  Stand  22     22     22     22     22     22     22     Stand  Stand  Stand  22     22     22       8K
+99  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       99
+9T  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       9T
+9J  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       9J
+9Q  Stand  Stand  22     22     22     22     22     22     22     Stand  Stand  Stand  22     22     22       9Q
+9K  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    9K
+TT  21     21     22     22     22     22     22     22     22     21     21     21     22     22     22       TT
+TJ  Stand  Stand  22     22     22     22     22     22     22     Stand  Stand  Stand  22     22     22       TJ
+TQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TQ
+TK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TK
+JJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JJ
+JQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JQ
+JK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JK
+QQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QQ
+QK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QK
+KK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KK
+ 
+     25     26     27     28     29     2T     2J     2Q     2K     33     34     35     36     37     38      
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays the best
+strategies for the play of the player's hands
+in response to dealer hands 39 to 4K
+ 
+     39     3T     3J     3Q     3K     44     45     46     47     48     49     4T     4J     4Q     4K      
+       
+00  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    00
+0A  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    0A
+02  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    02
+03  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    03
+04  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    04
+05  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    05
+06  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    06
+07  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    07
+08  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    08
+09  22/AT  22/AT  22/AT  22/AT  21     21     22     22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21       09
+0T  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       0T
+0J  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       0J
+0Q  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       0Q
+0K  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       0K
+AA  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    AA
+A2  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A2
+A3  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A3
+A4  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A4
+A5  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A5
+A6  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A6
+A7  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A7
+A8  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A8
+A9  22/AT  22/AT  22/AT  22/AT  Stand  Stand  Stand  Stand  22/AT  22/AT  22/AT  22/AT  22/AT  Stand  Stand    A9
+AT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AT
+AJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AJ
+AQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AQ
+AK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AK
+22  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    22
+23  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    23
+24  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    24
+25  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    25
+26  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    26
+27  22/AT  22/AT  22/AT  22/AT  21     21     22     22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21       27
+28  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       28
+29  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       29
+2T  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       2T
+2J  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       2J
+2Q  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       2Q
+2K  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       2K
+33  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    33
+34  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    34
+35  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    35
+36  22/AT  22/AT  22/AT  22/AT  21     21     22     22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21       36
+37  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       37
+38  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       38
+39  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       39
+3T  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       3T
+3J  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       3J
+3Q  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       3Q
+3K  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       3K
+44  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  22/A9  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    44
+45  22/AT  22/AT  22/AT  22/AT  21     21     22     22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21       45
+46  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       46
+47  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       47
+48  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       48
+49  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       49
+4T  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       4T
+4J  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       4J
+4Q  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       4Q
+4K  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       4K
+55  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       55
+56  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       56
+57  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       57
+58  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       58
+59  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       59
+5T  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       5T
+5J  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       5J
+5Q  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       5Q
+5K  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       5K
+66  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       66
+67  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       67
+68  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       68
+69  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       69
+6T  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       6T
+6J  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       6J
+6Q  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       6Q
+6K  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       6K
+77  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       77
+78  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       78
+79  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       79
+7T  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       7T
+7J  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       7J
+7Q  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       7Q
+7K  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       7K
+88  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       88
+89  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       89
+8T  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       8T
+8J  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       8J
+8Q  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       8Q
+8K  22     22     22     22     Stand  Stand  22     22     22     22     22     22     22     Stand  Stand    8K
+99  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       99
+9T  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       9T
+9J  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       9J
+9Q  22     22     22     22     Stand  Stand  22     22     22     22     22     22     22     Stand  Stand    9Q
+9K  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    9K
+TT  22     22     22     22     21     21     22     22     22     22     22     22     22     21     21       TT
+TJ  22     22     22     22     Stand  Stand  22     22     22     22     22     22     22     Stand  Stand    TJ
+TQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TQ
+TK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TK
+JJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JJ
+JQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JQ
+JK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JK
+QQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QQ
+QK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QK
+KK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KK
+ 
+     39     3T     3J     3Q     3K     44     45     46     47     48     49     4T     4J     4Q     4K      
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays the best
+strategies for the play of the player's hands
+in response to dealer hands 55 to 6J
+ 
+     55     56     57     58     59     5T     5J     5Q     5K     66     67     68     69     6T     6J      
+       
+00  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    00
+0A  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    0A
+02  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    02
+03  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    03
+04  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    04
+05  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    05
+06  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    06
+07  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    07
+08  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    08
+09  22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21     21     22/AT  22/AT  22/AT  22/AT  21     21       09
+0T  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       0T
+0J  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       0J
+0Q  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       0Q
+0K  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       0K
+AA  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    AA
+A2  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A2
+A3  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A3
+A4  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A4
+A5  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A5
+A6  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A6
+A7  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A7
+A8  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    A8
+A9  Stand  22/AT  22/AT  22/AT  22/AT  22/AT  Stand  Stand  Stand  22/AT  22/AT  22/AT  22/AT  Stand  Stand    A9
+AT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AT
+AJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AJ
+AQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AQ
+AK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AK
+22  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    22
+23  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    23
+24  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    24
+25  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    25
+26  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    26
+27  22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21     21     22/AT  22/AT  22/AT  22/AT  21     21       27
+28  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       28
+29  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       29
+2T  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       2T
+2J  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       2J
+2Q  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       2Q
+2K  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       2K
+33  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    33
+34  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    34
+35  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    35
+36  22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21     21     22/AT  22/AT  22/AT  22/AT  21     21       36
+37  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       37
+38  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       38
+39  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       39
+3T  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       3T
+3J  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       3J
+3Q  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       3Q
+3K  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       3K
+44  22/A9  22/AT  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9  21/A9  22/AT  22/AT  22/AT  22/AT  21/A9  21/A9    44
+45  22     22/AT  22/AT  22/AT  22/AT  22/AT  21     21     21     22/AT  22/AT  22/AT  22/AT  21     21       45
+46  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       46
+47  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       47
+48  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       48
+49  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       49
+4T  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       4T
+4J  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       4J
+4Q  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       4Q
+4K  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       4K
+55  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       55
+56  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       56
+57  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       57
+58  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       58
+59  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       59
+5T  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       5T
+5J  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       5J
+5Q  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       5Q
+5K  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       5K
+66  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       66
+67  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       67
+68  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       68
+69  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       69
+6T  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       6T
+6J  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       6J
+6Q  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       6Q
+6K  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       6K
+77  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       77
+78  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       78
+79  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       79
+7T  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       7T
+7J  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       7J
+7Q  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       7Q
+7K  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       7K
+88  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       88
+89  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       89
+8T  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       8T
+8J  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       8J
+8Q  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       8Q
+8K  22     22     22     22     22     22     Stand  Stand  Stand  22     22     22     22     Stand  Stand    8K
+99  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       99
+9T  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       9T
+9J  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       9J
+9Q  22     22     22     22     22     22     Stand  Stand  Stand  22     22     22     22     Stand  Stand    9Q
+9K  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    9K
+TT  22     22     22     22     22     22     21     21     21     22     22     22     22     21     21       TT
+TJ  22     22     22     22     22     22     Stand  Stand  Stand  22     22     22     22     Stand  Stand    TJ
+TQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TQ
+TK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TK
+JJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JJ
+JQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JQ
+JK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JK
+QQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QQ
+QK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QK
+KK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KK
+ 
+     55     56     57     58     59     5T     5J     5Q     5K     66     67     68     69     6T     6J      
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays the best
+strategies for the play of the player's hands
+in response to dealer hands 6Q to 8K
+ 
+     6Q     6K     77     78     79     7T     7J     7Q     7K     88     89     8T     8J     8Q     8K      
+       
+00  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    00
+0A  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    0A
+02  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    02
+03  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    03
+04  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    04
+05  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    05
+06  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    06
+07  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    07
+08  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21       08
+09  21     20     22/AT  22/AT  21     21     21     20     19     21     21     21     20     19     21       09
+0T  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       0T
+0J  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       0J
+0Q  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       0Q
+0K  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       0K
+AA  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    AA
+A2  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    A2
+A3  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    A3
+A4  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    A4
+A5  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    A5
+A6  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    A6
+A7  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    A7
+A8  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  Stand    A8
+A9  Stand  Stand  22/AT  22/AT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    A9
+AT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AT
+AJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AJ
+AQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AQ
+AK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AK
+22  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    22
+23  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    23
+24  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    24
+25  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    25
+26  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21       26
+27  21     20     22/AT  22/AT  21     21     21     20     19     21     21     21     20     19     21       27
+28  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       28
+29  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       29
+2T  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       2T
+2J  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       2J
+2Q  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       2Q
+2K  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       2K
+33  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    33
+34  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21/A8    34
+35  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21       35
+36  21     20     22/AT  22/AT  21     21     21     20     19     21     21     21     20     19     21       36
+37  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       37
+38  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       38
+39  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       39
+3T  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       3T
+3J  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       3J
+3Q  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       3Q
+3K  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       3K
+44  21/A9  20/A9  22/AT  22/AT  21/A9  21/A9  21/A9  20/A9  19/A9  21/A9  21/A9  21/A9  20/A9  19/A9  21       44
+45  21     20     22/AT  22/AT  21     21     21     20     19     21     21     21     20     19     21       45
+46  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       46
+47  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       47
+48  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       48
+49  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       49
+4T  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       4T
+4J  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       4J
+4Q  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       4Q
+4K  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       4K
+55  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       55
+56  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       56
+57  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       57
+58  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       58
+59  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       59
+5T  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       5T
+5J  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       5J
+5Q  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       5Q
+5K  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       5K
+66  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       66
+67  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       67
+68  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       68
+69  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       69
+6T  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       6T
+6J  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       6J
+6Q  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       6Q
+6K  21     20     22     22     21     21     21     20     Stand  21     21     21     20     Stand  21       6K
+77  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       77
+78  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       78
+79  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       79
+7T  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       7T
+7J  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       7J
+7Q  21     20     22     22     21     21     21     20     Stand  21     21     21     20     Stand  21       7Q
+7K  21     Stand  22     22     21     21     21     Stand  Stand  21     21     21     Stand  Stand  21       7K
+88  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       88
+89  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       89
+8T  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       8T
+8J  21     20     22     22     21     21     21     20     Stand  21     21     21     20     Stand  21       8J
+8Q  21     Stand  22     22     21     21     21     Stand  Stand  21     21     21     Stand  Stand  21       8Q
+8K  Stand  Stand  22     22     Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    8K
+99  21     20     22     22     21     21     21     20     19     21     21     21     20     19     21       99
+9T  21     20     22     22     21     21     21     20     Stand  21     21     21     20     Stand  21       9T
+9J  21     Stand  22     22     21     21     21     Stand  Stand  21     21     21     Stand  Stand  21       9J
+9Q  Stand  Stand  22     22     Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    9Q
+9K  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    9K
+TT  21     21     22     22     21     21     21     21     Stand  21     21     21     21     Stand  21       TT
+TJ  Stand  Stand  22     22     Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TJ
+TQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TQ
+TK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    TK
+JJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JJ
+JQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JQ
+JK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    JK
+QQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QQ
+QK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    QK
+KK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KK
+ 
+     6Q     6K     77     78     79     7T     7J     7Q     7K     88     89     8T     8J     8Q     8K      
+ 
+ 
+ 
+The combination-dependent-playing-strategy table found
+for the player's initial hands. It displays the best
+strategies for the play of the player's hands
+in response to dealer hands 99 to KK
+ 
+     99     9T     9J     9Q     9K     TT     TJ     TQ     TK     JJ     JQ     JK     QQ     QK     KK      
+       
+00  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    00
+0A  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    0A
+02  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    02
+03  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    03
+04  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    04
+05  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    05
+06  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    06
+07  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    07
+08  21/A9  20/A9  19/A9  21     22/A9  19/A9  21     22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    08
+09  21     20     19     21     22     19     21     22     23/AT  22     23/AT  24/AJ  24/AJ  25/AJ  26/AQ    09
+0T  21     20     19     21     22     19     21     22     23     22     23     24/AJ  24/AJ  25/AJ  26/AQ    0T
+0J  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26/AQ    0J
+0Q  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       0Q
+0K  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       0K
+AA  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    AA
+A2  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    A2
+A3  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    A3
+A4  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    A4
+A5  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    A5
+A6  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    A6
+A7  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    A7
+A8  21/A9  20/A9  19/A9  Stand  22/A9  19/A9  Stand  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    A8
+A9  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  23/AT  Stand  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    A9
+AT  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  24/AJ  24/AJ  25/AJ  26/AQ    AT
+AJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  26/AQ    AJ
+AQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AQ
+AK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    AK
+22  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    22
+23  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    23
+24  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    24
+25  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    25
+26  21/A9  20/A9  19/A9  21     22/A9  19/A9  21     22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    26
+27  21     20     19     21     22     19     21     22     23/AT  22     23/AT  24/AJ  24/AJ  25/AJ  26/AQ    27
+28  21     20     19     21     22     19     21     22     23     22     23     24/AJ  24/AJ  25/AJ  26/AQ    28
+29  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26/AQ    29
+2T  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       2T
+2J  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       2J
+2Q  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       2Q
+2K  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       2K
+33  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    33
+34  21/A9  20/A9  19/A9  21/A8  22/A9  19/A9  21/A8  22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    34
+35  21/A9  20/A9  19/A9  21     22/A9  19/A9  21     22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    35
+36  21     20     19     21     22     19     21     22     23/AT  22     23/AT  24/AJ  24/AJ  25/AJ  26/AQ    36
+37  21     20     19     21     22     19     21     22     23     22     23     24/AJ  24/AJ  25/AJ  26/AQ    37
+38  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26/AQ    38
+39  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       39
+3T  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       3T
+3J  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       3J
+3Q  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       3Q
+3K  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       3K
+44  21/A9  20/A9  19/A9  21     22/A9  19/A9  21     22/A9  23/AT  22/A9  23/AT  24/AJ  24/AJ  25/AJ  26/AQ    44
+45  21     20     19     21     22     19     21     22     23/AT  22     23/AT  24/AJ  24/AJ  25/AJ  26/AQ    45
+46  21     20     19     21     22     19     21     22     23     22     23     24/AJ  24/AJ  25/AJ  26/AQ    46
+47  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26/AQ    47
+48  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       48
+49  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       49
+4T  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       4T
+4J  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       4J
+4Q  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       4Q
+4K  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       4K
+55  21     20     19     21     22     19     21     22     23     22     23     24/AJ  24/AJ  25/AJ  26/AQ    55
+56  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26/AQ    56
+57  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       57
+58  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       58
+59  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       59
+5T  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       5T
+5J  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       5J
+5Q  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       5Q
+5K  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       5K
+66  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       66
+67  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       67
+68  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       68
+69  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       69
+6T  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       6T
+6J  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       6J
+6Q  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       6Q
+6K  21     20     Stand  21     22     Stand  21     22     23     22     23     24     24     25     26       6K
+77  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       77
+78  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       78
+79  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       79
+7T  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       7T
+7J  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       7J
+7Q  21     20     Stand  21     22     Stand  21     22     23     22     23     24     24     25     26       7Q
+7K  21     Stand  Stand  21     22     Stand  21     22     23     22     23     24     24     25     26       7K
+88  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       88
+89  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       89
+8T  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       8T
+8J  21     20     Stand  21     22     Stand  21     22     23     22     23     24     24     25     26       8J
+8Q  21     Stand  Stand  21     22     Stand  21     22     23     22     23     24     24     25     26       8Q
+8K  Stand  Stand  Stand  Stand  22     Stand  Stand  22     23     22     23     24     24     25     26       8K
+99  21     20     19     21     22     19     21     22     23     22     23     24     24     25     26       99
+9T  21     20     Stand  21     22     Stand  21     22     23     22     23     24     24     25     26       9T
+9J  21     Stand  Stand  21     22     Stand  21     22     23     22     23     24     24     25     26       9J
+9Q  Stand  Stand  Stand  Stand  22     Stand  Stand  22     23     22     23     24     24     25     26       9Q
+9K  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  23     Stand  23     24     24     25     26       9K
+TT  21     21     Stand  21     22     Stand  21     22     23     22     23     24     24     25     26       TT
+TJ  Stand  Stand  Stand  Stand  22     Stand  Stand  22     23     22     23     24     24     25     26       TJ
+TQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  23     Stand  23     24     24     25     26       TQ
+TK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  24     24     25     26       TK
+JJ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  23     Stand  23     24     24     25     26       JJ
+JQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  24     24     25     26       JQ
+JK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  25     26       JK
+QQ  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  25     26       QQ
+QK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  26       QK
+KK  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand  Stand    KK
+ 
+     99     9T     9J     9Q     9K     TT     TJ     TQ     TK     JJ     JQ     JK     QQ     QK     KK      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
